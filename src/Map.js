@@ -10,7 +10,7 @@ const customIcon = new L.Icon({
   iconAnchor: [19, 38], // アイコンの中心の座標 [x, y]、デフォルトはアイコンの中心
 });
 
-const eventsData = [
+const events = [
     {
       id: 1,
       eventName: 'Event 1',
@@ -40,7 +40,7 @@ const Map = () => {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
       {/* マーカーとポップアップの追加 */}
-      {eventsData.map(event => (
+      {events.map(event => (
         <Marker key={event.id} position={event.location} icon={customIcon}>
           <Popup>
             <div>
