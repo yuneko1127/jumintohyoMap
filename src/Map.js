@@ -10,6 +10,24 @@ const customIcon = new L.Icon({
   iconAnchor: [19, 38], // アイコンの中心の座標 [x, y]、デフォルトはアイコンの中心
 });
 
+const eventsData = [
+    {
+      id: 1,
+      eventName: 'Event 1',
+      location: [51.505, -0.09],
+      date: '2024-03-13',
+      time: '10:00 AM',
+    },
+    {
+      id: 2,
+      eventName: 'Event 2',
+      location: [51.51, -0.1],
+      date: '2024-03-14',
+      time: '2:00 PM',
+    },
+    // Add more events data as needed
+];
+
 const Map = () => {
   return (
     <MapContainer
@@ -21,13 +39,19 @@ const Map = () => {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
-      {/* マーカーの追加 */}
-      <Marker position={[51.505, -0.09]} icon={customIcon}>
-        {/* マーカーがクリックされたときのポップアップ */}
-        <Popup>
-          Example Popup Content
-        </Popup>
-      </Marker>
+      {/* マーカーとポップアップの追加 */}
+      {eventsData.map(event => (
+        <Marker key={event.id} position={event.location} icon={customIcon}>
+          <Popup>
+            <div>
+              <h3>{event.eventName}</h3>
+              <p><strong>場所:</strong> {event.location.join(', ')}</p>
+              <p><strong>日付:</strong> {event.date}</p>
+              <p><strong>時間:</strong> {event.time}</p>
+            </div>
+          </Popup>
+        </Marker>
+      ))}
     </MapContainer>
   );
 };
