@@ -29,6 +29,7 @@ const Map = () => {
               <h3>{event.eventName}</h3>
               <p><strong>場所:</strong> {event.location_name}</p>
               <p><strong>日付:</strong> {event.date}</p>
+              <p><strong>出典:</strong> {event.source}</p>
             </div>
           </Popup>
         </Marker>
