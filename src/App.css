@@ -30,11 +30,11 @@
 }
 */
 
-/*
+
 .App-link {
-  color: #61dafb;
+  color: #3787be;
 }
-*/
+
 
 @keyframes App-logo-spin {
   from {
@@ -45,7 +45,7 @@
   }
 }
 
-.Map_page {
+.page {
   display: flex;
   flex-direction: column;
   height: 100vh;

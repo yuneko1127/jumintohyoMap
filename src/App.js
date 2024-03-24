@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Map from './Map';
 import Header from './Header'; // Headerコンポーネントをインポート
 import Footer from './Footer'; // Footerコンポーネントをインポート
@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="Map_page">
+    <div className="page">
       <Header />
       <Routes>
         <Route path="/" element={<Map />} />

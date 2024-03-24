@@ -1,0 +1,23 @@
+.about-container {
+    max-width: 85vh;
+    margin: 0 auto;
+}
+
+.about-container h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.about-container p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about-container a {
+    color: #3787be;
+    text-decoration: none;
+}
+
+.about-container a:hover {
+    text-decoration: underline;
+}
