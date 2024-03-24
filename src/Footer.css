@@ -1,0 +1,6 @@
+.Footer {
+    background-color: #3787be; /* フッターの背景色を変更 */
+    color: #fff; /* テキストの色を変更 */
+    text-align: center; /* テキストを中央に配置 */
+    padding: 10px 0; /* パディングを追加 */
+}

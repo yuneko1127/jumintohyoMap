@@ -13,27 +13,28 @@ const customIcon = new L.Icon({
 const events = [
     {
       id: 1,
-      eventName: 'Event 1',
-      location: [51.505, -0.09],
-      date: '2024-03-13',
-      time: '10:00 AM',
+      eventName: '原子力発電所建設についての住民投票',
+      location_name: '新潟県巻町（現在 新潟市）',
+      location: [37.91637967784871, 139.03616586665956],
+      date: '1996-08-04',
+      source:"一般財団法人地方自治研究機構",
     },
     {
       id: 2,
-      eventName: 'Event 2',
-      location: [51.51, -0.1],
-      date: '2024-03-14',
-      time: '2:00 PM',
-    },
-    // Add more events data as needed
+      eventName: '日米地位協定の見直し及び基地の整理縮小に関する県民投票',
+      location_name: '沖縄県',
+      location: [26.212778735226753, 127.68079498540686],
+      date: '1996-09-08',
+      source:"一般財団法人地方自治研究機構",
+    }
 ];
 
 const Map = () => {
   return (
     <MapContainer
-      center={[0, 0]}
-      zoom={2}
-      style={{ height: '500px', width: '100%' }}
+      center={[35.69019523333241, 139.69134297724685]}
+      zoom={5}
+      style={{ height: '100vh', width: '100%' }}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -45,9 +46,8 @@ const Map = () => {
           <Popup>
             <div>
               <h3>{event.eventName}</h3>
-              <p><strong>場所:</strong> {event.location.join(', ')}</p>
+              <p><strong>場所:</strong> {event.location_name}</p>
               <p><strong>日付:</strong> {event.date}</p>
-              <p><strong>時間:</strong> {event.time}</p>
             </div>
           </Popup>
         </Marker>

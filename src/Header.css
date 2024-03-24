@@ -1,0 +1,30 @@
+.Header {
+    background-color: #3787be; /* ヘッダーの背景色を変更 */
+    color: #fff; /* テキストの色を変更 */
+    display: flex;
+    justify-content: space-between; /* ヘッダーの左右のスペースを均等に配置 */
+    align-items: center; /* アイテムを中央に配置 */
+    padding: 10px 20px; /* パディングを追加 */
+}
+
+.Header_nav {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Header_nav nav ul {
+    list-style: none; /* リストスタイルを削除 */
+    margin: 0;
+    padding: 0;
+    display: flex; /* ナビゲーション項目を横に並べる */
+}
+
+.Header_nav nav ul li {
+    margin-left: 20px; /* 各ナビゲーション項目の間隔を設定 */
+}
+
+.Header_nav nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
