@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jumintohyoMap/static/css/main.8c192071.css",
-    "main.js": "/jumintohyoMap/static/js/main.48a3f36d.js",
+    "main.js": "/jumintohyoMap/static/js/main.c639f76d.js",
     "static/js/453.e36aec80.chunk.js": "/jumintohyoMap/static/js/453.e36aec80.chunk.js",
     "index.html": "/jumintohyoMap/index.html",
     "main.8c192071.css.map": "/jumintohyoMap/static/css/main.8c192071.css.map",
-    "main.48a3f36d.js.map": "/jumintohyoMap/static/js/main.48a3f36d.js.map",
+    "main.c639f76d.js.map": "/jumintohyoMap/static/js/main.c639f76d.js.map",
     "453.e36aec80.chunk.js.map": "/jumintohyoMap/static/js/453.e36aec80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c192071.css",
-    "static/js/main.48a3f36d.js"
+    "static/js/main.c639f76d.js"
   ]
 }
