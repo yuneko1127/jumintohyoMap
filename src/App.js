@@ -12,9 +12,9 @@ function App() {
     <div className="page">
       <Header />
       <Routes>
-        <Route path="/jumintohyoMap/" element={<Map />} />
-        <Route path="/jumintohyoMap/about" element={<About />} />
-        <Route path="/jumintohyoMap/contact" element={<Contact />} />
+        <Route path="/" element={<Map />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>
