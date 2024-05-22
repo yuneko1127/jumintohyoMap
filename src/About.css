@@ -1,5 +1,5 @@
 .about-container {
-  max-width: 85vh;
+  max-width: 80vw;
   margin: 0 auto;
   padding: 20px;
   line-height: 1.6;
@@ -17,11 +17,11 @@
 }
 
 .about-container p {
-  margin-top: 15px;
+  margin: 15px;
 }
 
 .about-container ul {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .about-container li {
