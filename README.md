@@ -6,8 +6,10 @@ This project is [住民投票Map(means Referendum Map)](https://thankful-water-0
 
 
 # Set up
+
 サイトの閲覧だけであれば、[公開中のページ](https://thankful-water-0cfe9f100.5.azurestaticapps.net/)にアクセスすれば確認できます。
-ローカル環境で確認したい人は以下の手順を参考にしてください。
+ローカル環境で確認したい人は以下の手順を参考にしてください。<br>
+To watch this page, please visit [this public page](https://thankful-water-0cfe9f100.5.azurestaticapps.net/). For someone who does this in their local, check the following directions.
 
 ## Getting Started with Create React App
 
