@@ -1,11 +1,11 @@
 # 住民投票Map
 
-このプロジェクトは「[住民投票Map](https://thankful-water-0cfe9f100.5.azurestaticapps.net/)」です。日本全国の住民投票の事例を地図上に表示しています。
-詳細は[Aboutページ](https://thankful-water-0cfe9f100.5.azurestaticapps.net/about)を参照
-This project is [住民投票Map(means Referendum Map)](https://thankful-water-0cfe9f100.5.azurestaticapps.net/)
+このプロジェクトは「[住民投票Map](https://thankful-water-0cfe9f100.5.azurestaticapps.net/)」です。日本全国の住民投票の事例を地図上に表示しています。<br>
+詳細は[Aboutページ](https://thankful-water-0cfe9f100.5.azurestaticapps.net/about)を参照<br>
+This project is [住民投票Map(means Referendum Map)](https://thankful-water-0cfe9f100.5.azurestaticapps.net/) In this page, you can see cases of referendums throughout Japan.<br>
 
 
-# セットアップ
+# Set up
 サイトの閲覧だけであれば、[公開中のページ](https://thankful-water-0cfe9f100.5.azurestaticapps.net/)にアクセスすれば確認できます。
 ローカル環境で確認したい人は以下の手順を参考にしてください。
 
