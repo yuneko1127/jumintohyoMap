@@ -6,18 +6,20 @@ import events from './Events'; // イベントデータをインポート
 
 // カスタムアイコンの定義
 // 画像のダウンロードサイト：https://icon-rainbow.com/%E3%83%9E%E3%83%83%E3%83%97%E3%83%94%E3%83%B3%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E7%B4%A0%E6%9D%90-3/
-/*
+
 const redIcon = new L.Icon({
   iconUrl: 'images/red_pin.png', // 画像ファイルへのパス
   iconSize: [38, 38], // アイコンのサイズ [幅, 高さ]
   iconAnchor: [19, 38], // アイコンの中心の座標 [x, y]、デフォルトはアイコンの中心
 });
-*/
+
+/*
 const blueIcon = new L.Icon({
   iconUrl: 'images/blue_pin.png', // 画像ファイルへのパス
   iconSize: [38, 38], // アイコンのサイズ [幅, 高さ]
   iconAnchor: [19, 38], // アイコンの中心の座標 [x, y]、デフォルトはアイコンの中心
 });
+*/
 
 const Map = () => {
   return (
@@ -33,7 +35,7 @@ const Map = () => {
       {events.map(event => {
         if(event.type === 1){
           return(
-            <Marker key={event.id} position={event.location} icon={blueIcon}>
+            <Marker key={event.id} position={event.location} icon={redIcon}>
             <Popup>
               <div>
                 <h3>{event.eventName}</h3>
