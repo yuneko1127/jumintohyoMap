@@ -8,7 +8,7 @@ const About = () => {
       <h2>住民投票Mapとは？</h2>
       <p>
         このサイトでは、日本全国の住民投票の事例を地図上に表示しています。<br></br>
-        このサイトのソースコードは<a href="https://github.com/yuneko1127/jumintohyoMap">GitHub</a>で公開されています。<br></br>
+        このサイトのソースコードは<a href="https://github.com/yuneko1127/jumintohyoMap" target="_blank" without rel="noreferrer">GitHub</a>で公開されています。<br></br>
         地方自治は、<strong>「民主主義の学校」</strong>とも言われています。
         その中でも住民投票は、市民が直接決めることのできる重要な制度です。
         日本国内では、たくさんの住民投票が行われ、市民が直接政治に参加しています。
